@@ -1,0 +1,179 @@
+.card {
+    background-color: #111827;
+    width: 1050px;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    position: absolute;
+}
+.logo img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin: 1px 20px 5px;
+    transform: translate(-340px, 0px);
+}
+.orange img {
+    transform: translate(560px,-250px) rotate(90deg);
+    transform-origin: center;
+    width: 600px;
+    height: 600px;
+}
+.orange2 img {
+    transform: translate(-550px,220px) rotate(270deg);
+    transform-origin: center;
+    width: 780px;
+    height: 780px;
+}
+.orange,
+.orange2 {
+    position: absolute;
+}
+.name {
+    position: absolute;
+}
+.name img {
+    height: 100px;
+    transform: translate(-330px, -210px)
+}
+.card h1 {
+    position: absolute;
+}
+.card h1 {
+    color: white;
+    font-size: 42px;
+    margin: 1px 0 20px;
+    white-space: nowrap;
+    transform: translate(50px, 75px);
+}
+.position {
+    position: absolute;
+}
+.position {
+    font-size: 16px;
+    color:#9CA3AF;
+    margin: 0 0 25px;
+    transform: translate(50px, 140px);
+}
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.number {
+    position: absolute;
+}
+.number {
+    transform: translate(90px, 200px);
+}
+h3.number a {
+    color: #D1D5DB;
+    text-decoration: none;
+}
+.card h3.number a:hover {
+    color: #38BDF8;
+}
+.phone img {
+    width: 30px;
+    height: 30px;
+    transform: translate(-85px, 32px);
+}
+
+.mail {
+    position: absolute;
+}
+.mail {
+    transform: translate(90px, 240px);
+}
+h3.mail a {
+    color: #D1D5DB;
+    text-decoration: none
+}
+.card h3.mail a:hover {
+    color: #38BDF8;
+}
+.mail img {
+    width: 30px;
+    height: 30px;
+    transform: translate(-175px, -182px);
+}
+
+.social {
+    position: absolute;
+}
+.social {
+    transform: translate(90px, 280px);
+}
+h3.social a {
+    color: #D1D5DB;
+    text-decoration: none;
+}
+.card h3.social a:hover {
+    color: #38BDF8;
+}
+.web img {
+    width: 30px;
+    height: 30px;
+    transform: translate(-85px, 83px);
+}
+.accent-line {
+    position: absolute;
+}
+.accent-line {
+    width: 230px;
+    border: none;
+    border-top: 3px solid #38BDF8;
+    margin: 0 auto 25px;
+    transform: translate(50px, 180px);
+}
+.info {
+    position: absolute;
+}
+.info {
+    width: 500px;
+    transform: translate(100px, -170px);
+    margin: 10px 0 10px;
+    margin-bottom: 80px;
+}
+
+.back-card {
+    background-color: #111827;
+    width: 1050px;
+    height: 600px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.logo-back img {
+    height: 400px;
+    width: 400px;
+    transform: translate(0px, -20px);
+}
+.name-back img {
+    transform: translate(0px, -100px);
+}
